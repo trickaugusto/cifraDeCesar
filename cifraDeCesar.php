@@ -1,6 +1,8 @@
 <?php
 
-class CesarCipher
+require_once 'Instancia.php';
+
+class CifraDeCesar
 {
     public $str;
     public $alfabeto;
