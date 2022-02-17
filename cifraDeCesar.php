@@ -4,8 +4,8 @@ require_once 'Instancia.php';
 
 class CifraDeCesar
 {
-    public $str;
-    public $alfabeto;
+    protected $str;
+    protected $alfabeto;
 
     public function __construct($texto)
     {
